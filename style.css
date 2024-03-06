@@ -1,0 +1,313 @@
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    /* background-color: black; */
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+ /* nav-bar-section */
+nav{
+
+    background-color: rgb(245, 245, 245);
+    padding: 25px 30px 25px 87px;
+    position: sticky;
+    top: 0px;
+    z-index: 9999999999999999999999999999999;
+}
+.logo{
+    display: flex;
+    justify-content:space-between;
+    text-decoration: none;
+}
+.logo img{
+    width: 80px;
+
+}
+ul{ 
+    display: flex;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: system-ui;
+    font-weight: 500;
+    list-style: none;
+    margin-left: 47%;
+}
+.logo ul li a{
+    margin-left: 48px;
+    text-decoration: none;
+    color: #224093;
+}
+.logo button{
+   padding: 13px;
+   border-radius: 5px;
+   border: none;
+   width: 120px;
+   margin-right: 12px;
+   color: #224093;
+   font-size: 15px;
+   font-family: system-ui;
+   font-weight: 500;
+   background-color: rgb(253, 185, 21);
+}
+.logo ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(253, 185, 21);
+}
+.logo button:hover{
+    color: white;
+}
+/* ibadan tech expo picture section */
+.ibd{
+    /* position: absolute; */
+    /* top: 130px; */
+    /* left: ; */
+    padding: 20px 42px 50px 50px;
+}
+.ibd img{
+    /* width: 98%; */
+}
+.under-pic1{
+    display: flex;
+    margin-top: 12px;
+}
+.under-pic1 h1{
+    font-size: 24px;
+    color: #224093;
+    font-family: ;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+/* font-family: 'Raleway', sans-serif; */
+}
+#line1{
+    width: 280px;
+    margin-top: 30px;
+    margin-right: 70px;
+    margin-left: 10px;
+}
+#line2{
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+#star{
+    width: 70px;
+    border: 1px solid #00a877;
+    border-radius: 100%;
+    padding: 5px;
+    animation: babs 4s linear infinite;
+}
+
+@keyframes babs{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+    transform: rotate(360deg);
+}
+}
+.under-pic1 h1{
+    margin-top: 10px;
+}
+.button2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.button2 #a1{
+   background-color: rgb(253, 185, 21);
+   width: 50%;
+   border: none;
+   text-align: center;
+   padding: 5px;
+}
+.button2 #a2{
+    border: 1px solid #224093;
+    width: 47%;
+    text-align: center;
+    padding: 5px;
+ }
+ #a1 button, #a2 button{
+    border: none;
+    color: #224093;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    background-color: whitesmoke;
+    cursor: pointer;
+ }
+ #a1 button{
+    background-color:rgb(253, 185, 21) ;
+ }
+.gradient{
+    text-align: center;
+    margin-top: 6%;
+    background-image: linear-gradient(to right, goldenrod, blue, blue, blue, blue);
+    opacity: 0.6;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 200;
+}
+.gradient h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    margin-bottom: -20px;
+}
+.gradient p{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+}
+#space{
+    margin-bottom: 4%;
+}
+.space2{
+    /* margin-bottom: 50px; */
+}
+
+/* poster-section */
+.poster{
+    display: flex;
+    padding: 20px 42px 0 50px;
+}
+.abib{
+    width: 50%;
+    margin-top: 10%;
+}
+.abib img{
+    border-bottom: 2px solid rgb(253, 185, 21);
+}
+.abib p{
+    color: #224093;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    margin-top: 3%;
+    line-height: 19.8px;
+    text-align: start;
+}
+.poster-pic{
+    width: 50%;
+}
+/* venue-section */
+.venue{
+    padding: 0px 42px 50px 50px;
+    margin-top: 80px;
+}
+
+.straight-line p{
+    /* height: 28%; */
+    display: inline;
+    text-orientation: sideways-right;
+}
+.straight-line1 img{
+    height: 430px;
+    width: 2px;
+    position: absolute;
+    left: 1240px;
+    top: 299%;
+    z-index: 400;
+}
+.straight-line2 img{
+    height: 430px;
+    width: 2px;
+    position: absolute;
+    left: 115px;
+    z-index: 400;
+}
+.venue #h1 {
+    color: #fff;
+    position: absolute;
+    top: 300%;
+    left: 120px;
+    text-transform: capitalize;
+    text-wrap: wrap;
+    text-align: start;
+}
+.venue >h1{
+    border-bottom: 2px solid rgb(253, 185, 21);
+    margin-top: ;
+    color: #224093;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-family: 'Jost', sans-serif;
+/* font-family: 'Raleway', sans-serif; */
+    font-weight: 800;
+    line-height: 72px;
+    margin-bottom: 50px;
+}
+
+/* speakers-section */
+.Speakers{
+    padding: 20px 42px 0 50px;
+
+}
+
+#heading h1{
+    margin-top: ;
+    color: #224093;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-family: 'Jost', sans-serif;
+/* font-family: 'Raleway', sans-serif; */
+    font-weight: 800;
+    line-height: 72px;
+    display: inline;
+}
+#heading{
+    display: flex;
+    border-bottom: 2px solid rgb(253, 185, 21);
+    justify-content: space-between;
+    /* padding: 20px 42px 0 50px; */
+
+}
+#heading p{
+    color: #224093;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Jost', sans-serif;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+#speak main{
+    text-align: center;
+
+}
+#speak{
+    align-items: center;
+    margin-top: 50px;
+}
+#speak h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #224093;
+    line-height: 36px;
+    text-transform: capitalize;
+    text-wrap: wrap;
+}
+#speak p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #224093;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+.speakers-image{
+    display: flex;
+    gap: 20px;
+}
